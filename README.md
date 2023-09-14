@@ -57,7 +57,7 @@ npm start
 ````bash
 cd frontend
 npm install
-npm run dev
+npm start
 ````
 - Frontend server landing page: http://localhost:5173
 
@@ -100,5 +100,14 @@ External APIs:
 4. Pick a Random Suggestion
 ![image](https://github.com/kangjin97/GDS-SWE_LaterEatWhat/assets/45915809/f4c4df1d-c30d-4103-a130-eedd25c5ea8d)
 
+## Unit Test Batch File
 
+The Unit Test Batch File has been included inside the git repo "unitTestBatchJob.bat"
 
+Inside contains 3 test cases involving CRUD operations:
+
+1. Add 5 Records
+2. Update 5 Records
+3. Remove All Records
+
+Open the landing page to see the updates in real time.
