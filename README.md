@@ -57,7 +57,7 @@ npm start
 ````bash
 cd frontend
 npm install
-npm start
+npm run dev
 ````
 - Frontend server landing page: http://localhost:5173
 
