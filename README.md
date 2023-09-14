@@ -74,6 +74,9 @@ Backend APIs:
 3. DELETE (/suggest/:id)
 - Allows users to delete their option if they decide that they are no longer joining for the meal. (Wouldn't want to go somewhere no one is interested in eating at)
 
+4. DELETE (/suggest)
+- Allows user to quickly delete all records after a meal
+
 External APIs:
 1. Google Places API
 - Retrive meal suggestions from around the office area (Jackson Square - Set to 1 km radius)
