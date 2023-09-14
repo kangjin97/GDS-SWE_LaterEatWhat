@@ -12,7 +12,7 @@ LaterEatWhat provides the following features:
 
 ## Tech Stack
 
-The Book Store App was built using the following technologies:
+Later Eat What was built using the following technologies:
 
 ### Front-end
 
@@ -25,7 +25,7 @@ The Book Store App was built using the following technologies:
 
 - Node.js: A JavaScript runtime environment for server-side development.
 - Express.js: A minimal web application framework for Node.js.
-- MongoDB: A NoSQL database used for storing book and user information.
+- MongoDB: A NoSQL database used for storing suggestions and user information.
 - Mongoose: A MongoDB object modeling tool for Node.js.
 
 ## Installation and Setup
