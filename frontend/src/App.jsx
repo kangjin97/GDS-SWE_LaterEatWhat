@@ -1,7 +1,7 @@
 import React from 'react'
 import { Routes, Route } from 'react-router-dom';
 import DeleteSuggestion from './pages/DeleteSuggestion';
-import AddSuggestion from './pages/AddSuggestion';
+import AddSuggestion from './pages/AddSuggestions';
 import Home from './pages/Home';
 import DeleteAllSuggestions from './pages/DeleteAllSuggestions';
 
