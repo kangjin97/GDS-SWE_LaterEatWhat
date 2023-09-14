@@ -7,8 +7,13 @@ LaterEatWhat provides the following features:
 <ul>
   <li>Allows users to see nearby restaurants from the office for inspiration</li>
   <li>Allows users to add / update / delete their choices whenever necessary</li>
+  <li>Records will be smartly updated if the input name is the same for a different Suggestion</li>
   <li>Allows users to randomly generate an eating place with the click of a button</li>
 </ul>
+
+## Assumptions 
+1. The result generated from the random generator is not persistent and assumes that either only 1 person will be in charge of running the randomizer or that everyone would gather at a single PC to run the algorithm together in deciding where to go.
+2. The application also assumes that staff are only working at TECQ in Jackson Square and thus the nearby suggestions radius is set to 1km around the Jackson Square Office. (Future improvements will allow for more flexibility in the system)
 
 ## Tech Stack
 
