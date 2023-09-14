@@ -12,7 +12,7 @@ LaterEatWhat provides the following features:
 
 ## Tech Stack
 
-The Book Store App was built using the following technologies:
+Later Eat What was built using the following technologies:
 
 ### Front-end
 
@@ -25,7 +25,7 @@ The Book Store App was built using the following technologies:
 
 - Node.js: A JavaScript runtime environment for server-side development.
 - Express.js: A minimal web application framework for Node.js.
-- MongoDB: A NoSQL database used for storing book and user information.
+- MongoDB: A NoSQL database used for storing suggestions and user information.
 - Mongoose: A MongoDB object modeling tool for Node.js.
 
 ## Installation and Setup
@@ -37,18 +37,27 @@ To run LaterEatWhat, follow these steps:
 https://github.com/kangjin97/GDS-SWE_LaterEatWhat.git
 ````
 
-2. Open a new terminal and run Backend Server:
+2. Download and install Node.js from: https://nodejs.org/en
+````bash
+node -v
+npm -v
+````
+The following will be returned if the installation is completed successfully:
+v18.17.1
+10.1.0
+
+3. Open a new terminal and run Backend Server:
 ````bash
 cd Backend
 npm install
 npm start
 ````
 
-3. Open a new terminal and run Frontend Server:
+4. Open a new terminal and run Frontend Server:
 ````bash
 cd frontend
 npm install
-npm start
+npm run dev
 ````
 - Frontend server landing page: http://localhost:5173
 
@@ -64,6 +73,9 @@ Backend APIs:
 
 3. DELETE (/suggest/:id)
 - Allows users to delete their option if they decide that they are no longer joining for the meal. (Wouldn't want to go somewhere no one is interested in eating at)
+
+4. DELETE (/suggest)
+- Delete All allows user to quickly delete all records after a meal
 
 External APIs:
 1. Google Places API
