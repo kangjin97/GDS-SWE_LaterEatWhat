@@ -84,5 +84,21 @@ External APIs:
 
 2. Google Maps API
 - Display a Map for users to easily scan the area and check the distance and directions to each eating location
-- KIV: It is possible to make a route function to give users the exact directions to walk 
+- KIV: It is possible to make a route function to give users the exact directions to walk
+
+## Screenshots
+
+1. Landing Page (View All Suggestions)
+![image](https://github.com/kangjin97/GDS-SWE_LaterEatWhat/assets/45915809/f637f51e-1134-4f02-9887-cf1684c50cf3)
+
+2. Add Suggestion
+![image](https://github.com/kangjin97/GDS-SWE_LaterEatWhat/assets/45915809/19973301-11a4-4ccb-b540-ef1a019e44ac)
+
+3. Delete Record
+![image](https://github.com/kangjin97/GDS-SWE_LaterEatWhat/assets/45915809/4330ad1b-e5eb-4b7a-8b80-99e73c0e0d9e)
+
+4. Pick a Random Suggestion
+![image](https://github.com/kangjin97/GDS-SWE_LaterEatWhat/assets/45915809/f4c4df1d-c30d-4103-a130-eedd25c5ea8d)
+
+
 
