@@ -1,0 +1,57 @@
+/* Reset some default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Style the list header */
+.list-header {
+    font-size: 70px;
+    font-weight: 600;
+    background-image: linear-gradient(to left, #0c2e5f, #93b4d3);
+    color: transparent;
+    background-clip: text;
+    -webkit-background-clip: text;
+}
+
+/* Style the list container */
+.list-container {
+    display: flex;
+    /* Display items in a row */
+    overflow-x: auto;
+    /* Add horizontal scroll if needed */
+    padding: 10px;
+    /* Add padding to the container */
+}
+
+/* Style each list item */
+.list-item {
+    min-width: 150px;
+    /* Set a minimum width for each item */
+    padding: 10px;
+    /* Add padding to the item */
+    margin-right: 10px;
+    /* Add margin to separate items */
+    background-color: #f0f0f0;
+    /* Set background color */
+    border: 1px solid #ccc;
+    /* Add a border */
+    border-radius: 4px;
+    /* Round corners */
+    text-align: center;
+    /* Center text */
+}
+
+/* Remove right margin from the last item */
+.list-item:last-child {
+    margin-right: 0;
+}
+
+/* Add hover effect */
+.list-item:hover {
+    background-color: #ddd;
+    /* Change background color on hover */
+    cursor: pointer;
+    /* Show pointer cursor on hover */
+}
