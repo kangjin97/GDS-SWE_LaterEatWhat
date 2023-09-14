@@ -68,4 +68,23 @@ router.delete('/:id', async (req, res) => {
 
 });
 
+// Route for deleting all records
+router.delete('/', async (req, res) => {
+
+    try {
+        const results = await Suggestion.deleteMany();
+
+        if (!results) {
+            return res.status(404).json({message: "Error deleting records"});
+        }
+    
+        return res.status(200).json({message: "Suggestions removed successfully"});
+
+    } catch (error) {
+        console.log(error.message);
+        res.status(500).send({message: error.message});
+    }
+
+});
+
 export default router;

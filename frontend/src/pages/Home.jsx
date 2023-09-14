@@ -19,20 +19,20 @@ const home = () => {
             console.log(error);
         });
 
-        const [selectedSuggestion, setSelectedSuggestion] = useState(null);
-        const [isAnimating, setIsAnimating] = useState(false);
-      
-        const handleRandomPick = () => {
-          if (suggestions.length === 0) return;
-      
-          setIsAnimating(true);
-      
-          setTimeout(() => {
+    const [selectedSuggestion, setSelectedSuggestion] = useState(null);
+    const [isAnimating, setIsAnimating] = useState(false);
+
+    const handleRandomPick = () => {
+        if (suggestions.length === 0) return;
+
+        setIsAnimating(true);
+
+        setTimeout(() => {
             const randomIndex = Math.floor(Math.random() * suggestions.length);
             setSelectedSuggestion(suggestions[randomIndex].suggestion);
             setIsAnimating(false);
-          }, 3000); // Simulated animation duration (3 seconds)
-        };
+        }, 3000); // Simulated animation duration (3 seconds)
+    };
 
 
     return (
@@ -80,6 +80,12 @@ const home = () => {
                     ))}
                 </tbody>
             </table>
+
+            <div className="container mx-auto text-center mt-8">
+                <Link to={'/suggest/deleteall'}>
+                    <button className='px-4 py-2 bg-blue-500 text-white rounded-md text-lg'>Clear All Records</button>
+                </Link>
+            </div>
 
             <div className="container mx-auto text-center mt-8">
                 <button
