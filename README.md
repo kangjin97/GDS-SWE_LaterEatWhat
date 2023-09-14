@@ -37,14 +37,16 @@ To run LaterEatWhat, follow these steps:
 https://github.com/kangjin97/GDS-SWE_LaterEatWhat.git
 ````
 
-2. Open a new terminal and run Backend Server:
+2. Download Node.js from: https://nodejs.org/en
+
+3. Open a new terminal and run Backend Server:
 ````bash
 cd Backend
 npm install
 npm start
 ````
 
-3. Open a new terminal and run Frontend Server:
+4. Open a new terminal and run Frontend Server:
 ````bash
 cd frontend
 npm install
